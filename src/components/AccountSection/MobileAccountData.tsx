@@ -6,7 +6,7 @@ import {GameHooks} from "./HookState";
 import {ReactComponent as GameBar} from "../../assets/gameboy.svg";
 import {ReactComponent as TicTac} from "../../assets/tic-tac-toe.svg";
 import {ReactComponent as Game2048} from "../../assets/2048.svg";
-import Weather from "../../Weather/WeatherApp";
+// import Weather from "../../Weather/WeatherApp";
 import {ElseIf, If} from "../Service/condition";
 import GameTicTac from "../../game/TicTacToe/Game/Game";
 import GamePuzzle from "../../game/Puzzle/App";
@@ -85,7 +85,7 @@ export default function MobileAccountData({BackState, BackSet}: { BackState: boo
                 <div>
 
                     <div className="justifyedGrid">
-                        <Weather/>
+                        {/* <Weather/> */}
                         <div className='parent'>
                             <button className="child GameBarBtnMobile" onClick={() => {
                                 GameState.game = "GameBar"

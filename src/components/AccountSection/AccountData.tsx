@@ -11,7 +11,7 @@ import {ReactComponent as Close} from "../../assets/x.svg";
 import {ReactComponent as GameBar} from "../../assets/gameboy.svg";
 import {ReactComponent as TicTac} from "../../assets/tic-tac-toe.svg";
 import {ReactComponent as GameIcon2048} from "../../assets/2048.svg";
-import Weather from "../../Weather/WeatherApp";
+// import Weather from "../../Weather/WeatherApp";
 import GameTicTac from "../../game/TicTacToe/Game/Game";
 import {ElseIf, If} from "../Service/condition";
 import GamePuzzle from "../../game/Puzzle/App";
@@ -114,7 +114,7 @@ const AccountData: React.FC = () => {
 
 
                             <div className="grid grid-cols-1">
-                                <div className=""><Weather/></div>
+                                {/* <div className=""><Weather/></div> */}
                                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                                             <DateCalendar sx={{width:"90%"}} className="maxAccount" defaultValue={dayjs(new Date())} />
                                 </LocalizationProvider>
