@@ -3,9 +3,7 @@ import "../index.css"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TelegramIcon from '@mui/icons-material/Telegram';
 import EmailIcon from '@mui/icons-material/Email';
-import LanguageIcon from '@mui/icons-material/Language';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -57,12 +55,10 @@ const Footer: React.FC = () => {
                   <DialogContent>
                       <footer >
                       <div className="text-center marginer mb-2">
-                          <a href="https://webvave.ir"><LanguageIcon sx={{fontSize:35}}/></a>
-                          <a href="https://www.linkedin.com/in/ariyan-emami-8b99a3251"><LinkedInIcon sx={{fontSize:35}}/></a>
-                          <a href="https://github.com/ariyan-emi"><GitHubIcon sx={{fontSize:35}}/></a>
-                          <a href="https://www.instagram.com/ariyan_emi"><InstagramIcon sx={{fontSize:35}}/></a>
-                          <a href="https://telegram.me/ARIYANEM231"><TelegramIcon sx={{fontSize:35}}/></a>
-                          <a href="mailto:emami8637@gmail.com"><EmailIcon sx={{fontSize:35}}/></a>
+                          <a href="https://www.linkedin.com/in/garbkrit"><LinkedInIcon sx={{fontSize:35}}/></a>
+                          <a href="https://github.com/kritgarb"><GitHubIcon sx={{fontSize:35}}/></a>
+                          <a href="https://www.instagram.com/krit_tech"><InstagramIcon sx={{fontSize:35}}/></a>
+                          <a href="mailto:garbkrit@gmail.com"><EmailIcon sx={{fontSize:35}}/></a>
                       </div>
                       </footer>
                   </DialogContent>
